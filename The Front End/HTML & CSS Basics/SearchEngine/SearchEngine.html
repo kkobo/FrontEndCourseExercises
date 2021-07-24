@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bing</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            background: radial-gradient(circle, rgba(63,251,217,1) 0%, rgba(70,252,97,1) 100%);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            color: navy;
+            text-align: center;
+        }
+
+        input {
+            font-size: x-large;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+
+        input[type=text] {
+            width: 300px;
+            height: 52px;
+            padding: 4px 17px 4px 17px;
+        }
+
+        input[type=submit] {
+            height: 64px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        form {
+            position: absolute;
+            text-align: left;
+            top: 50%;
+            left:50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+        <form action=" https://www.bing.com/search" method="GET">
+            <h1>Bing Search</h1>
+            <input type="text" name="q">
+            <input type="submit" value="Search">
+        </form>
+</body>
+
+</html>
