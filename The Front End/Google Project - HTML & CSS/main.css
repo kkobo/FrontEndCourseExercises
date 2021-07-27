@@ -1,0 +1,135 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+.menubar {
+    width: 100%;
+    overflow: auto;
+}
+
+.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.leftmenubar ul li {
+    float: left;
+}
+
+.rightmenubar ul li {
+    float: right;
+}
+
+.menubar ul li a {
+    font-size: 13px;
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 7px 0;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.menubar ul li a img {
+    width: 16px;
+    height: 16px;
+}
+
+.menubar ul li a:hover {
+    text-decoration: underline;
+}
+
+.menubar a#sign-in {
+    text-align: center;
+    width: 67px;
+    color: #fff;
+    border: 1px solid #4285f4;
+    background-color: #4585F1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.center {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center div input[type=text] {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.center div img {
+    display: block;
+    margin: 0 auto;
+}
+
+.center .buttons {
+    text-align: center;
+}
+
+ .center input[type="submit"] {
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+}
+
+.center input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+/*Footer*/
+
+.footer {
+    width: 99%;
+    overflow: auto;
+    bottom: 0;
+    position: absolute;
+    background-color: #f2f2f2;
+}
+
+ .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.leftfooter ul li {
+    float: left;
+}
+
+.rightfooter ul li {
+    float: right;
+}
+
+.footer ul li a {
+    font-size: 13px;
+    display: block;
+    color: #5f6368;
+    margin: 7px 0;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.footer ul li a:hover,
+.footer ul li a:active {
+    text-decoration: underline;
+}
